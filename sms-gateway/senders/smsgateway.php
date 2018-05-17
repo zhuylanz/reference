@@ -1,7 +1,6 @@
 <?php
-// Author: MichaelPhan
-// Email: sonpython@gmail.com
 
+require 'smsclass.php';
 class smsgateway extends AktuelSms {
     static $baseUrl = "https://smsgateway.me";
 
@@ -15,11 +14,11 @@ class smsgateway extends AktuelSms {
     }
 
     function createContact ($name,$number) {
-        return $this->makeRequest('/api/v4/contacts/create','POST',['name' => $name, 'number' => $number]);
+        return $this->makeRequest('/api/v4/contacts','POST',['name' => $name, 'phone_numbers' => $number]);
     }
 
     function getContacts ($page=1) {
-       return $this->makeRequest('/api/v4/contacts','GET',['page' => $page]);
+       return $this->makeRequest('/api/v4/contact/search','POST');
     }
 
     function getContact ($id) {
@@ -29,22 +28,22 @@ class smsgateway extends AktuelSms {
 
     function getDevices ($page=1)
     {
-        return $this->makeRequest('/api/v4/devices','GET',['page' => $page]);
+        return $this->makeRequest('/api/v4/device/search','POST');
     }
 
     function getDevice ($id)
     {
-        return $this->makeRequest('/api/v4/devices/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/device/'.$id,'GET');
     }
 
     function getMessages($page=1)
     {
-        return $this->makeRequest('/api/v4/messages','GET',['page' => $page]);
+        return $this->makeRequest('/api/v4/message/search','POST');
     }
 
     function getSingleMessage($id)
     {
-        return $this->makeRequest('/api/v4/messages/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/message/'.$id,'GET');
     }
 
     function sendMessageToNumber($to, $message, $device, $options=[]) {
@@ -77,27 +76,31 @@ class smsgateway extends AktuelSms {
 
         //$fields['email'] = $params->email;
         //$fields['password'] = $params->pass;
-        $fields['device_id'] = $params->senderid;
+        //$fields['device_id'] = $params->senderid;
+        $fields['device_id'] = '90154';
         $url = smsGateway::$baseUrl.$url;
 
         //$fieldsString = http_build_query($fields);
         $fieldsString = json_encode([$fields]);
         $ch = curl_init();
 
+
         if($method == 'POST')
         {
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
             curl_setopt($ch, CURLOPT_POSTFIELDS, $fieldsString);                                                                  
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
-                'Content-Type: application/json',                                                                                
-                'Content-Length: ' . strlen($fieldsString[0])),
+                'Content-Type: application/json',
                 'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
-            );
+            ));
         }
         else
         {
             $fieldsString = http_build_query($fields);
             $url .= '?'.$fieldsString;
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
+            ));
         }
 
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -108,6 +111,8 @@ class smsgateway extends AktuelSms {
         $result = curl_exec ($ch);
 
         $return['response'] = json_decode($result,true);
+        print_r($result);
+        print_r($return);
 
         if($return['response'] == false)
             $return['response'] = $result;
@@ -132,7 +137,7 @@ class smsgateway extends AktuelSms {
         // check list of devices and get the first one:
         $getDevicesresult = $this->getDevices();
         $json_string = json_encode($getDevicesresult, JSON_PRETTY_PRINT);
-        $deviceID = $getDevicesresult['response']['result']['data'][0]['id'];
+        $deviceID = $getDevicesresult['response']['results'][0]['id'];
         if (!$deviceID) {
             $log[] = "Can not get deviceID. error : ".$json_string;
             $error[] = "Can not get deviceID. error: ".$json_string;
@@ -155,24 +160,16 @@ class smsgateway extends AktuelSms {
         $log[] = "smsGateway server response returned: ".$json_string;
 
       
-        if ($result['response']['success']) {
+        if ($result['response'][0]) {
             $this->addLog("Call API success.");
             $log[] = "Call API success.";
-            $Status = $result['response']['result']['success'][0]['status'];
-            $send_at = date('Y-m-d h:i:s',$result['response']['result']['success'][0]['send_at']);
+            $Status = $result['response'][0];
+            $send_at = date('Y-m-d h:i:s',$result['response'][0]['created_at']);
 
-            if ($result['response']['result']['success']['error']=="") {
-                $messid = $result['response']['result']['success'][0]['id'];
-                $this->addLog("Message id: " . $messid . " was sent at" . $send_at . "  Status: ".$Status);
-                $log[] = "Message id: " . $messid . " sent at: " . $send_at . " Status: ".$Status;
-            }elseif($result['response']['result']['fails']['errors']) {
-                $error = json_encode($result['response']['result']['fails']['errors'], JSON_PRETTY_PRINT);
-                $log[] = "Error when sending message. error : ".$error;
-                $error[] = "An error occurred while sending messages. error: ".$error;
-            }else{
-                $log[] = "Unable to send message. error : ".$json_string;
-                $error[] = "An error occurred while sending messages. error: ".$json_string;
-            }
+            $messid = $result['response'][0]['id'];
+            $this->addLog("Message id: " . $messid . " was sent at" . $send_at . "  Status: ".$Status);
+            $log[] = "Message id: " . $messid . " sent at: " . $send_at . " Status: ".$Status;
+
         }else{
             $log[] = "Unable to send message. error : ".$json_string;
             $error[] = "An error occurred while sending messages. error: ".$json_string;
@@ -187,14 +184,14 @@ class smsgateway extends AktuelSms {
     function balance(){
         // check list of devices and get the first one:
         $getDevicesresult = $this->getDevices();
-        $DeviceID = $getDevicesresult['response']['result']['data'][0]['id'];
-        $Devicename = $getDevicesresult['response']['result']['data'][0]['name'];
-        $Devicemake = $getDevicesresult['response']['result']['data'][0]['make'];
-        $Devicemodel = $getDevicesresult['response']['result']['data'][0]['model'];
-        $Devicenumber = $getDevicesresult['response']['result']['data'][0]['number'];
-        $battery = $getDevicesresult['response']['result']['data'][0]['battery'];
-        $Devicesignal = $getDevicesresult['response']['result']['data'][0]['signal'];
-        $Devicewifi = $getDevicesresult['response']['result']['data'][0]['wifi'];
+        $DeviceID = $getDevicesresult['response']['results'][0]['id'];
+        $Devicename = $getDevicesresult['response']['results'][0]['name'];
+        $Devicemake = $getDevicesresult['response']['results'][0]['attributes']['make'];
+        $Devicemodel = $getDevicesresult['response']['results'][0]['attributes']['model'];
+        $Devicenumber = $getDevicesresult['response']['results'][0]['attributes']['phone_number'];
+        $battery = $getDevicesresult['response']['results'][0]['attributes']['battery'];
+        $Devicesignal = $getDevicesresult['response']['results'][0]['attributes']['signal_percent'];
+        $Devicewifi = $getDevicesresult['response']['results'][0]['attributes']['wifi'];
         $device_info = 'ID: '.$DeviceID.' | '.'Name: '.$Devicename. ' '.$Devicemake.' '.$Devicemodel.' | '.'Number: '.$Devicenumber.' | '.'Battery: '.$battery.' | '.'Devicesignal: '.$Devicesignal.' | '.'Devicewifi: '.$Devicewifi;
 
         if ($device_info) {
@@ -208,8 +205,8 @@ class smsgateway extends AktuelSms {
         $id = $msgid;
         $result = $this->getSingleMessage($id);
 
-        if ($result['response']['success']) {
-            $status = $result['response']['result']['status'];
+        if ($result['response']['id']) {
+            $status = $result['response']['status'];
             // $report = 'Status: ' . $status . '. Error' . $result['response']['result']['error'];
             return $status;
         }else {
@@ -239,3 +236,8 @@ return array(
         'email','pass','countrycode'
     )
 );
+
+// $test = new smsgateway('abc', '1234');
+//print_r($test->balance());
+//print_r($test->sendMessageToNumber('01658040978', 'testing php', 'ab'));
+// print_r($test->getContact('12583148'));
