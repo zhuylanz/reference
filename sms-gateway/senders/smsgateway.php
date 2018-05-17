@@ -15,61 +15,61 @@ class smsgateway extends AktuelSms {
     }
 
     function createContact ($name,$number) {
-        return $this->makeRequest('/api/v3/contacts/create','POST',['name' => $name, 'number' => $number]);
+        return $this->makeRequest('/api/v4/contacts/create','POST',['name' => $name, 'number' => $number]);
     }
 
     function getContacts ($page=1) {
-       return $this->makeRequest('/api/v3/contacts','GET',['page' => $page]);
+       return $this->makeRequest('/api/v4/contacts','GET',['page' => $page]);
     }
 
     function getContact ($id) {
-        return $this->makeRequest('/api/v3/contacts/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/contacts/view/'.$id,'GET');
     }
 
 
     function getDevices ($page=1)
     {
-        return $this->makeRequest('/api/v3/devices','GET',['page' => $page]);
+        return $this->makeRequest('/api/v4/devices','GET',['page' => $page]);
     }
 
     function getDevice ($id)
     {
-        return $this->makeRequest('/api/v3/devices/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/devices/view/'.$id,'GET');
     }
 
     function getMessages($page=1)
     {
-        return $this->makeRequest('/api/v3/messages','GET',['page' => $page]);
+        return $this->makeRequest('/api/v4/messages','GET',['page' => $page]);
     }
 
     function getSingleMessage($id)
     {
-        return $this->makeRequest('/api/v3/messages/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/messages/view/'.$id,'GET');
     }
 
     function sendMessageToNumber($to, $message, $device, $options=[]) {
         $query = array_merge(['number'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v3/messages/send','POST',$query);
+        return $this->makeRequest('/api/v4/messages/send','POST',$query);
     }
 
     function sendMessageToManyNumbers ($to, $message, $device, $options=[]) {
         $query = array_merge(['number'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v3/messages/send','POST', $query);
+        return $this->makeRequest('/api/v4/messages/send','POST', $query);
     }
 
     function sendMessageToContact ($to, $message, $device, $options=[]) {
         $query = array_merge(['contact'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v3/messages/send','POST', $query);
+        return $this->makeRequest('/api/v4/messages/send','POST', $query);
     }
 
     function sendMessageToManyContacts ($to, $message, $device, $options=[]) {
         $query = array_merge(['contact'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v3/messages/send','POST', $query);
+        return $this->makeRequest('/api/v4/messages/send','POST', $query);
     }
 
     function sendManyMessages ($data) {
         $query['data'] = $data;
-        return $this->makeRequest('/api/v3/messages/send','POST', $query);
+        return $this->makeRequest('/api/v4/messages/send','POST', $query);
     }
 
     private function makeRequest ($url, $method, $fields=[]) {
@@ -99,6 +99,11 @@ class smsgateway extends AktuelSms {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
         curl_setopt($ch, CURLOPT_HEADER , false);  // we want headers
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+        //new by Lan:
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Authorization: 0',
+        ));
 
         $result = curl_exec ($ch);
 
