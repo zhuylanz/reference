@@ -1,6 +1,5 @@
 <?php
 
-require 'smsclass.php';
 class smsgateway extends AktuelSms {
     static $baseUrl = "https://smsgateway.me";
 
