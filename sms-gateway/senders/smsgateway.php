@@ -102,7 +102,7 @@ class smsgateway extends AktuelSms {
 
         //new by Lan:
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8',
+            'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
         ));
 
         $result = curl_exec ($ch);
