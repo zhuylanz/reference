@@ -23,7 +23,7 @@ class smsgateway extends AktuelSms {
     }
 
     function getContact ($id) {
-        return $this->makeRequest('/api/v4/contacts/view/'.$id,'GET');
+        return $this->makeRequest('/api/v4/contact/'.$id,'GET');
     }
 
 
@@ -48,62 +48,63 @@ class smsgateway extends AktuelSms {
     }
 
     function sendMessageToNumber($to, $message, $device, $options=[]) {
-        $query = array_merge(['number'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v4/messages/send','POST',$query);
+        $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        return $this->makeRequest('/api/v4/message/send','POST',$query);
     }
 
-    function sendMessageToManyNumbers ($to, $message, $device, $options=[]) {
-        $query = array_merge(['number'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v4/messages/send','POST', $query);
+    function sendMessageToManyNumbers($to, $message, $device, $options=[]) {
+        $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
     function sendMessageToContact ($to, $message, $device, $options=[]) {
-        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v4/messages/send','POST', $query);
+        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
     function sendMessageToManyContacts ($to, $message, $device, $options=[]) {
-        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device' => $device], $options);
-        return $this->makeRequest('/api/v4/messages/send','POST', $query);
+        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
     function sendManyMessages ($data) {
         $query['data'] = $data;
-        return $this->makeRequest('/api/v4/messages/send','POST', $query);
+        return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
     private function makeRequest ($url, $method, $fields=[]) {
         $params = $this->getParams();
 
-        $fields['email'] = $params->email;
-        $fields['password'] = $params->pass;
-
+        //$fields['email'] = $params->email;
+        //$fields['password'] = $params->pass;
+        $fields['device_id'] = $params->senderid;
         $url = smsGateway::$baseUrl.$url;
 
-        $fieldsString = http_build_query($fields);
-
+        //$fieldsString = http_build_query($fields);
+        $fieldsString = [json_encode($fields)];
 
         $ch = curl_init();
 
         if($method == 'POST')
         {
-            curl_setopt($ch,CURLOPT_POST, count($fields));
-            curl_setopt($ch,CURLOPT_POSTFIELDS, $fieldsString);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $fieldsString);                                                                  
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
+                'Content-Type: application/json',                                                                                
+                'Content-Length: ' . strlen($fieldsString[0])),
+                'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
+            );
         }
         else
         {
+            $fieldsString = http_build_query($fields);
             $url .= '?'.$fieldsString;
         }
 
-        curl_setopt($ch, CURLOPT_URL,$url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
-        curl_setopt($ch, CURLOPT_HEADER , false);  // we want headers
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, false);  // we want headers
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-
-        //new by Lan:
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
-        ));
 
         $result = curl_exec ($ch);
 
