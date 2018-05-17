@@ -58,12 +58,12 @@ class smsgateway extends AktuelSms {
     }
 
     function sendMessageToContact ($to, $message, $device, $options=[]) {
-        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
         return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
     function sendMessageToManyContacts ($to, $message, $device, $options=[]) {
-        $query = array_merge(['contact'=>$to, 'message'=>$message, 'device_id' => $device], $options);
+        $query = array_merge(['phone_number'=>$to, 'message'=>$message, 'device_id' => $device], $options);
         return $this->makeRequest('/api/v4/message/send','POST', $query);
     }
 
@@ -81,8 +81,7 @@ class smsgateway extends AktuelSms {
         $url = smsGateway::$baseUrl.$url;
 
         //$fieldsString = http_build_query($fields);
-        $fieldsString = [json_encode($fields)];
-
+        $fieldsString = json_encode([$fields]);
         $ch = curl_init();
 
         if($method == 'POST')
