@@ -73,10 +73,12 @@ class smsgateway extends AktuelSms {
     private function makeRequest ($url, $method, $fields=[]) {
         $params = $this->getParams();
 
-        //$fields['email'] = $params->email;
-        //$fields['password'] = $params->pass;
-        //$fields['device_id'] = $params->senderid;
-        $fields['device_id'] = '90154';
+        // $fields['email'] = $params->email;
+        // $fields['password'] = $params->pass;
+        // $fields['device_id'] = '90154';
+        $fields['device_id'] = $params->senderid;
+        $token = $params->signature;
+        // $token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8';
         $url = smsGateway::$baseUrl.$url;
 
         //$fieldsString = http_build_query($fields);
@@ -90,7 +92,7 @@ class smsgateway extends AktuelSms {
             curl_setopt($ch, CURLOPT_POSTFIELDS, $fieldsString);                                                                  
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(                                                                          
                 'Content-Type: application/json',
-                'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
+                'Authorization: '.$token
             ));
         }
         else
@@ -98,7 +100,7 @@ class smsgateway extends AktuelSms {
             $fieldsString = http_build_query($fields);
             $url .= '?'.$fieldsString;
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-                'Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTUyNjU2MzkzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjM5MjE4LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.1rjWmmd0hcruos5krzf1xZ6ZmA4MIswYJccz4ZhdsQ8'
+                'Authorization: '.$token
             ));
         }
 
