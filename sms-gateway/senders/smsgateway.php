@@ -112,8 +112,6 @@ class smsgateway extends AktuelSms {
         $result = curl_exec ($ch);
 
         $return['response'] = json_decode($result,true);
-        print_r($result);
-        print_r($return);
 
         if($return['response'] == false)
             $return['response'] = $result;
