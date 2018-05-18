@@ -206,12 +206,12 @@ function aktuel_sms_output($vars){
                         </tr>
                         <tr>
                             <td class="fieldlabel" width="30%">'.$LANG['senderid'].'</td>
-                            <td class="fieldarea"><input type="text" class="form-control" name="params[senderid]" size="40" value="' . $apiparams->senderid . '"> e.g:  AktuelHost</td>
+                            <td class="fieldarea"><input type="text" class="form-control" name="params[senderid]" size="40" value="' . $apiparams->senderid . '"></td>
                         </tr>
                         '.$classersfields.'
                         <tr>
                             <td class="fieldlabel" width="30%">'.$LANG['signature'].'</td>
-                            <td class="fieldarea"><input type="text" class="form-control" name="params[signature]" size="40" value="' . $apiparams->signature . '"> e.g:  www.aktuelsistem.com</td>
+                            <td class="fieldarea"><input type="text" class="form-control" name="params[signature]" size="40" value="' . $apiparams->signature . '"></td>
                         </tr>
                         <tr>
                             <td class="fieldlabel" width="30%">'.$LANG['wantsmsfield'].'</td>
@@ -552,5 +552,5 @@ function aktuel_sms_output($vars){
             </div>';
     }
 
-	echo $LANG['lisans'];
+	//echo $LANG['lisans'];
 }
