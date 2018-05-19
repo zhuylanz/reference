@@ -99,7 +99,7 @@ class AktuelSms{
         }else{
             $params = $this->getParams();
             $message = $this->message;
-            $message .= " ".$params->signature;
+            //$message .= " ".$params->signature;
 
             $this->addLog("Params: ".json_encode($params));
             $this->addLog("To: ".$this->getGsmnumber());
