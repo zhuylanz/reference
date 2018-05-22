@@ -1,0 +1,8 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002         7231 Apr 24 13:12 fraudlabspro.tpl
+-rw-r--r--    1 1002     1002         6195 Apr 24 13:12 fraudlabspro_info.tpl
+-rw-r--r--    1 1002     1002         7193 Apr 24 13:12 ip.tpl
+-rw-r--r--    1 1002     1002         1450 Apr 24 13:12 ip_ip.tpl
+-rw-r--r--    1 1002     1002         4272 Apr 24 13:12 maxmind.tpl
+-rw-r--r--    1 1002     1002         7691 Apr 24 13:12 maxmind_info.tpl

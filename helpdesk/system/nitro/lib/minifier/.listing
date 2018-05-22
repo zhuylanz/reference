@@ -1,0 +1,6 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 .
+drwxr-xr-x    6 1002     1002         4096 Apr 25 04:35 ..
+-rw-r--r--    1 1002     1002         8275 Apr 25 04:34 CSSMin.php
+-rw-r--r--    1 1002     1002         8547 Apr 25 04:34 HTMLMin.php
+-rw-r--r--    1 1002     1002        16097 Apr 25 04:34 JSMin.php
+-rw-r--r--    1 1002     1002        17737 Apr 25 04:34 JSShrink.php

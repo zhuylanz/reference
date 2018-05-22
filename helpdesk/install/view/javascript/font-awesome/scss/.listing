@@ -1,0 +1,15 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x    6 1002     1002         4096 Apr 24 13:12 ..
+-rw-r--r--    1 1002     1002          332 Apr 24 13:12 _bordered-pulled.scss
+-rw-r--r--    1 1002     1002          271 Apr 24 13:12 _core.scss
+-rw-r--r--    1 1002     1002          120 Apr 24 13:12 _fixed-width.scss
+-rw-r--r--    1 1002     1002        26582 Apr 24 13:12 _icons.scss
+-rw-r--r--    1 1002     1002          375 Apr 24 13:12 _larger.scss
+-rw-r--r--    1 1002     1002          378 Apr 24 13:12 _list.scss
+-rw-r--r--    1 1002     1002          701 Apr 24 13:12 _mixins.scss
+-rw-r--r--    1 1002     1002          695 Apr 24 13:12 _path.scss
+-rw-r--r--    1 1002     1002          412 Apr 24 13:12 _rotated-flipped.scss
+-rw-r--r--    1 1002     1002          766 Apr 24 13:12 _spinning.scss
+-rw-r--r--    1 1002     1002          482 Apr 24 13:12 _stacked.scss
+-rw-r--r--    1 1002     1002        10723 Apr 24 13:12 _variables.scss
+-rw-r--r--    1 1002     1002          405 Apr 24 13:12 font-awesome.scss

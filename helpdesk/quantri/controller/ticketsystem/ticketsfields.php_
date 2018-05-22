@@ -1,0 +1,122 @@
+<?php
+use Controller\TicketSystem\TsBase;
+
+/**
+ * @package		Webkul HelpDesk Mod
+ * @copyright	Copyright (C) 2015 Webkul Pvt Ltd. All rights reserved. (webkul.com)
+ * 
+ * Class used to manage Ticket Fields, their listing etc
+ *
+ * Basic structure is same as Activity controller, more used function are explained here
+ */
+class ControllerTicketSystemTicketsFields extends TsBase {
+
+	const CONTROLLER_NAME = 'ticketsfields';
+
+	public $allowedFields = array(
+							'filter_id',
+							'filter_username',
+							'filter_email',
+							'filter_last_login',
+							);
+	
+	public function __construct($registry){
+		$this->registry = $registry;
+		$this->extendedClassCall = true;
+		parent::__construct($registry);
+
+		$this->TsLoader->TsHelper->setDefaultValues(
+				array(
+						'modFolder' => 'ticketsystem',
+						'defaultSort' => 'a.id',
+						'allowedFields' => $this->allowedFields,
+					)
+			);
+	}
+	
+	/**
+	 * Not Real Constructor, just dummy
+	 * @return array loaded data from base controller
+	 */
+	public function _construct(){
+		return $this->data;
+	}
+
+	public function index() {
+		$this->document->setTitle($this->language->get('heading_'.self::CONTROLLER_NAME));
+
+		$this->load->model('ticketsystem/ticketsfields');
+
+		$this->edit();
+	}
+
+	protected function edit() {
+		$this->TsLoader->TsHelper->setDefaultValues(
+				array(
+						'controllerFile' => 'ticketsfields/edit',
+						'tplFile' => 'ticketFields',
+					)
+			);
+
+		$url = $this->TsLoader->TsHelper->getUrlData('default');
+
+		$this->document->setTitle($this->language->get('heading_ticketsfields'));
+
+		$this->load->model('ticketsystem/ticketsfields');
+
+		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {
+			// $this->model_ticketsystem_tickets->editAgent($this->request->post);
+
+			$this->session->data['success'] = sprintf($this->language->get('text_success'), $this->language->get('heading_tickets'));
+
+			$this->response->redirect($this->url->link('ticketsystem/ticketsfields', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+		}
+
+		$this->getForm();
+	}
+
+	protected function getForm() {
+
+		$data = $this->_construct();
+
+		$data['heading_title'] = $this->language->get('heading_'.self::CONTROLLER_NAME);
+
+		$data['text_form'] = $this->language->get('text_edit_ticketsfields');
+
+		if (isset($this->error['warning'])) {
+			$data['error_warning'] = $this->error['warning'];
+		} else {
+			$data['error_warning'] = '';
+		}
+
+		$url = $this->TsLoader->TsHelper->getUrlData('default');
+
+		$data['breadcrumbs'] = $this->TsLoader->TsHelper->getAdminBreadcrumbs(
+				array(
+					$this->language->get('heading_ticketsfields') => 'ticketsfields',
+					)
+			);
+
+		$data['action'] = $this->url->link('ticketsystem/ticketsfields', 'token=' . $this->session->data['token'] . $url, 'SSL');
+
+		if (isset($this->request->get['id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
+			$user_info = $this->model_ticketsystem_tickets->getAgent(array('a.id' => $this->request->get['id']));
+		}
+
+		$data['token'] = $this->session->data['token'];
+
+		$this->response->setOutput($this->TsLoader->TsHelper->loadHtml($data));
+	}
+
+	protected function validateForm() {
+		if (!$this->user->hasPermission('modify', 'ticketsystem/ticketsfields')) {
+			$this->error['warning'] = $this->language->get('error_permission');
+		}
+
+		if ($this->error && !isset($this->error['warning'])) {
+			$this->error['warning'] = $this->language->get('error_warning');
+		}
+
+		return !$this->error;
+	}
+}

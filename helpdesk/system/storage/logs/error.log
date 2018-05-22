@@ -1,0 +1,13 @@
+2018-05-01 12:45:53 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-01 12:50:55 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-01 12:51:05 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/uvdesk/uvdesk_list.tpl on line 77
+2018-05-01 12:51:11 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-01 12:51:14 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-01 12:55:42 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/uvdesk/uvdesk_list.tpl on line 77
+2018-05-01 13:02:23 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/uvdesk/uvdesk_list.tpl on line 77
+2018-05-01 18:46:52 - PHP Warning:  Invalid argument supplied for foreach() in /home/research02/web/research02.setupwebsite.org/public_html/oc21/system/library/ticketsystem/tsconditions.php on line 134
+2018-05-01 18:46:52 - PHP Warning:  Invalid argument supplied for foreach() in /home/research02/web/research02.setupwebsite.org/public_html/oc21/system/library/ticketsystem/tsconditions.php on line 199
+2018-05-05 8:52:07 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-05 8:52:53 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-07 10:15:27 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58
+2018-05-14 9:16:49 - PHP Notice:  Undefined variable: text_no_results in /home/research02/web/research02.setupwebsite.org/public_html/oc21/catalog/view/theme/default/template/module/uvdesk.tpl on line 58

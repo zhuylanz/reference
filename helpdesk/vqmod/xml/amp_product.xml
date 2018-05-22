@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>AMP for Product Page</name>
+	<version>1.0.9</version>
+	<author>yura dee</author> 
+	<file path="catalog/controller/product/product.php">
+		<operation>
+			<search position="after"><![CDATA[$this->document->addLink($this->url->link('product/product', 'product_id=' . $this->request->get['product_id']), 'canonical');]]></search>
+			<add><![CDATA[$this->document->addLink($this->url->link('product/amp_product', 'product_id=' . $this->request->get['product_id']), 'amphtml');
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="after"><![CDATA[foreach ($parts as $part) {]]></search>
+			<add><![CDATA[if ( $part == 'amp') {
+					continue;
+				} else
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[if ($url[0] == 'product_id') {]]></search>
+			<add><![CDATA[if ($url[0] == 'product_id' && strpos($this->request->get['_route_'], "/amp/") !== FALSE) {
+						$this->request->get['aproduct_id'] = $url[1];
+					}
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="after"><![CDATA[
+				if (!isset($this->request->get['route'])) {
+			]]></search>
+			<add><![CDATA[
+				if (isset($this->request->get['aproduct_id']) ) {
+					$this->request->get['route'] = 'product/amp_product';
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="replace"><![CDATA[
+				if (isset($this->request->get['product_id'])) {
+			]]></search>
+			<add><![CDATA[
+				} elseif (isset($this->request->get['product_id']) ) {
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="replace"><![CDATA[
+				($data['route'] == 'information/information' && $key == 'information_id')
+			]]></search>
+			<add><![CDATA[
+				($data['route'] == 'information/information' && $key == 'information_id') || ($data['route'] == 'product/amp_product')
+			]]></add>
+		</operation>
+		<operation>
+			<search position="replace" index="1"><![CDATA[
+				$url .= '/' . $query->row['keyword'];
+			]]></search>
+			<add><![CDATA[
+				if ($data['route'] == 'product/amp_product') {
+					$url .=  '/' . $query->row['keyword'] .'/amp/';
+				}
+				else {
+					$url .= '/' . $query->row['keyword'];
+				}
+			
+			]]></add>
+		</operation>
+	</file>
+</modification>

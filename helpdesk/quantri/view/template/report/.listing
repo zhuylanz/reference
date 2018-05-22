@@ -1,0 +1,17 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002         4951 Apr 24 13:12 affiliate.tpl
+-rw-r--r--    1 1002     1002         5090 Apr 24 13:12 affiliate_activity.tpl
+-rw-r--r--    1 1002     1002         5079 Apr 24 13:12 customer_activity.tpl
+-rw-r--r--    1 1002     1002         4788 Apr 24 13:12 customer_credit.tpl
+-rw-r--r--    1 1002     1002         4735 Apr 24 13:12 customer_online.tpl
+-rw-r--r--    1 1002     1002         6208 Apr 24 13:12 customer_order.tpl
+-rw-r--r--    1 1002     1002         5092 Apr 24 13:12 customer_reward.tpl
+-rw-r--r--    1 1002     1002         5599 Apr 24 13:12 marketing.tpl
+-rw-r--r--    1 1002     1002         5439 Apr 24 13:12 product_purchased.tpl
+-rw-r--r--    1 1002     1002         2829 Apr 24 13:12 product_viewed.tpl
+-rw-r--r--    1 1002     1002         4591 Apr 24 13:12 sale_coupon.tpl
+-rw-r--r--    1 1002     1002         6595 Apr 24 13:12 sale_order.tpl
+-rw-r--r--    1 1002     1002         6170 Apr 24 13:12 sale_return.tpl
+-rw-r--r--    1 1002     1002         6446 Apr 24 13:12 sale_shipping.tpl
+-rw-r--r--    1 1002     1002         6423 Apr 24 13:12 sale_tax.tpl

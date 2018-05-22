@@ -1,0 +1,8 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   20 1002     1002         4096 May 01 12:31 ..
+-rw-r--r--    1 1002     1002          973 Apr 24 13:12 category.php
+-rw-r--r--    1 1002     1002          909 Apr 24 13:12 compare.php
+-rw-r--r--    1 1002     1002         1015 Apr 24 13:12 manufacturer.php
+-rw-r--r--    1 1002     1002         2445 Apr 24 13:12 product.php
+-rw-r--r--    1 1002     1002         1294 Apr 24 13:12 search.php
+-rw-r--r--    1 1002     1002          896 Apr 24 13:12 special.php

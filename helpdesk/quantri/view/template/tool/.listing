@@ -1,0 +1,7 @@
+drwxr-xr-x    3 1002     1002         4096 Apr 25 04:34 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002         3036 Apr 24 13:12 backup.tpl
+-rw-r--r--    1 1002     1002         1741 Apr 24 13:12 error_log.tpl
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 nitro
+-rw-r--r--    1 1002     1002        14475 Apr 25 04:34 nitro.tpl
+-rw-r--r--    1 1002     1002         6752 Apr 24 13:12 upload.tpl

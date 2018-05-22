@@ -1,0 +1,9 @@
+drwxr-xr-x    8 1002     1002         4096 Apr 25 04:34 .
+drwxr-xr-x    9 1002     1002         4096 Apr 30 11:16 ..
+drwxr-xr-x    5 1002     1002         4096 Apr 25 04:34 cache
+-rw-r--r--    1 1002     1002         4373 Apr 25 04:34 config.php
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 core
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 data
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 include
+drwxr-xr-x    6 1002     1002         4096 Apr 25 04:35 lib
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 temp

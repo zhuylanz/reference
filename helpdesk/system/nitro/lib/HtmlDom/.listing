@@ -1,0 +1,10 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 .
+drwxr-xr-x    6 1002     1002         4096 Apr 25 04:35 ..
+-rw-r--r--    1 1002     1002          282 Apr 25 04:34 DomNodeAttribute.php
+-rw-r--r--    1 1002     1002          124 Apr 25 04:34 HtmlDomComment.php
+-rw-r--r--    1 1002     1002        30705 Apr 25 04:34 HtmlDomNode.php
+-rw-r--r--    1 1002     1002          638 Apr 25 04:34 HtmlDomSelector.php
+-rw-r--r--    1 1002     1002         5765 Apr 25 04:34 HtmlDomSelectorPattern.php
+-rw-r--r--    1 1002     1002          662 Apr 25 04:34 HtmlDomSelectorPatternAttributeValue.php
+-rw-r--r--    1 1002     1002          141 Apr 25 04:34 HtmlDomSelectorPatternMode.php
+-rw-r--r--    1 1002     1002         1289 Apr 25 04:34 StringIterator.php

@@ -1,0 +1,14 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002         8357 Apr 24 13:12 auspost.tpl
+-rw-r--r--    1 1002     1002         4894 Apr 24 13:12 citylink.tpl
+-rw-r--r--    1 1002     1002        20253 Apr 24 13:12 fedex.tpl
+-rw-r--r--    1 1002     1002         4778 Apr 24 13:12 flat.tpl
+-rw-r--r--    1 1002     1002         3963 Apr 24 13:12 free.tpl
+-rw-r--r--    1 1002     1002         4779 Apr 24 13:12 item.tpl
+-rw-r--r--    1 1002     1002         9144 Apr 24 13:12 parcelforce_48.tpl
+-rw-r--r--    1 1002     1002         3528 Apr 24 13:12 pickup.tpl
+-rw-r--r--    1 1002     1002        38390 Apr 24 13:12 royal_mail.tpl
+-rw-r--r--    1 1002     1002        47004 Apr 24 13:12 ups.tpl
+-rw-r--r--    1 1002     1002        34224 Apr 24 13:12 usps.tpl
+-rw-r--r--    1 1002     1002         6422 Apr 24 13:12 weight.tpl

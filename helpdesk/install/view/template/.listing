@@ -1,0 +1,12 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x    6 1002     1002         4096 Apr 24 13:12 ..
+-rw-r--r--    1 1002     1002          375 Apr 24 13:12 footer.tpl
+-rw-r--r--    1 1002     1002          717 Apr 24 13:12 header.tpl
+-rw-r--r--    1 1002     1002         3236 Apr 24 13:12 maxmind.tpl
+-rw-r--r--    1 1002     1002         1943 Apr 24 13:12 openbay.tpl
+-rw-r--r--    1 1002     1002         1316 Apr 24 13:12 step_1.tpl
+-rw-r--r--    1 1002     1002        16107 Apr 24 13:12 step_2.tpl
+-rw-r--r--    1 1002     1002         7627 Apr 24 13:12 step_3.tpl
+-rw-r--r--    1 1002     1002         6626 Apr 24 13:12 step_4.tpl
+-rw-r--r--    1 1002     1002         1174 Apr 24 13:12 success.tpl
+-rw-r--r--    1 1002     1002         1790 Apr 24 13:12 upgrade.tpl

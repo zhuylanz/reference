@@ -1,0 +1,6 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 25 04:34 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002          575 Apr 24 13:12 backup.php
+-rw-r--r--    1 1002     1002          346 Apr 24 13:12 error_log.php
+-rw-r--r--    1 1002     1002          367 Apr 25 04:34 nitro.php
+-rw-r--r--    1 1002     1002          557 Apr 24 13:12 upload.php

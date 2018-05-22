@@ -1,0 +1,334 @@
+.container .ts-jumbotron{
+	padding:20px 40px 20px 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px; 
+}
+.category-div{
+	border-bottom: 1px solid #ddd;
+	padding-top: 1px;
+}
+
+textarea{
+	min-height: 125px;
+}
+
+.buttons{
+	overflow: auto;
+}
+
+.note-editor .btn-sm, .note-editor .btn-group-sm > .btn {
+    padding: 4px 9px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 2px;
+}
+
+.note-editor .btn-default {
+    color: #555555; 
+    background-color: #ffffff;
+    border-color: #cccccc;
+    background-image: none;
+}
+
+.note-editor .fa{
+    font-size: 10px;
+}
+
+.navbar{
+	/*margin-bottom: -1px;*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #fff;
+	background-color: #1f90bb;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: #fff;
+	background-color: #1f90bb;
+}
+.navbar-default .navbar-brand{
+	color: #31708f;
+}
+.navbar-default {
+    border: 1px solid #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff
+}
+.navbar-default .navbar-toggle {
+	border: none;
+	background: #229ac8;
+}
+.navbar-collapse.in{
+	overflow-y: visible;
+}
+
+
+
+span.fa{
+  font-size: 12px;
+  padding: 2px;
+  background: #666666;
+  color: #fff;
+}
+.text-warning span.fa{
+  background: #f38733;
+}
+.text-success span.fa{
+  background: #8fbb6c;
+}
+.text-primary span.fa{
+  background: #1e91cf;
+}
+
+#ticketsResult .ticketsLoader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  text-align: center;
+  padding: 25%;
+  left: 0px;
+  top: 0px;
+}
+.fa-5x {
+  font-size: 5em;
+}
+#ticketsResult h4{
+  margin-top: 4px;
+}
+#ticketsResult table tbody button{
+	opacity: .9;
+}
+.dropdown-menu a.active{
+	z-index: 2;
+	color: #ffffff;
+	background-color: #229AC8;
+	border-color: #229AC8;
+}
+.active.asc:after {
+  content: " \f107";
+  font-family: FontAwesome;
+  font-size: 14px;
+}
+.active.desc:after {
+  content: " \f106";
+  font-family: FontAwesome;
+  font-size: 14px;
+}
+
+
+.ticketsView div.ticket-right-clm{
+  padding: 12px 0px 15px 15px;
+  border-left: 1px solid #e8e8e8;
+}
+.ticketsView div.ticket-left-clm{
+  padding: 5px 12px 10px 0px;
+}
+.action-buttons{
+  padding: 5px 5px 3px 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.ticket-messages{
+	padding: 15px 0px;
+	/*background: #EDEDED;*/
+}
+.ticket-messages .message{
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  margin-left: 55px;
+  padding: 8px;
+  min-height: 55px;
+  word-break: break-all;
+  position: relative;
+  overflow: auto;
+}
+.ticket-messages .message:hover{
+  border-color: #ccc;
+}
+form .message{
+  margin-left: 55px;
+}
+.ticket-messages .seperator{
+  border-bottom: 1px dotted #ccc;
+  margin-left: 55px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ticket-create{
+
+}
+.action-buttons .btn-sm{
+	margin-bottom: 3px;
+}
+
+.ticket-messages .img-thumbnail,form .img-thumbnail{
+	position: relative;
+	cursor: pointer;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+.ticket-messages .img-thumbnail span.box,form .img-thumbnail span.box{
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+	display: block;
+	text-align: center;
+	line-height: 45px;
+}
+.ticket-messages .img-thumbnail i, form .img-thumbnail i{
+	background: none;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+.image-hover-a{
+	position: absolute;
+	width: 51px;
+	height: 56px;
+	top: 1px;
+	left: 3px;
+	padding: 18px;
+	background: #000;
+	color: #fff !important;
+	background: rgba(0,0,0,.7);
+}
+.message-margin-manage{
+	margin-left: 55px;
+	word-break: break-all;
+	margin-bottom: 5px;
+}
+.message-margin-manage div{
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 5px;
+}
+.div-ticket-pagination{
+	margin-top: -15px;
+	margin-left: 55px;
+	margin-bottom: 15px;
+  	text-align: center;
+  	position: relative;
+}
+.div-ticket-pagination span{
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #8fbb6c;
+	z-index: 1;
+	margin-top: -18px;
+	background: rgba(143, 187, 108, .6);
+}
+.thread-data{
+	position: relative;
+}
+.ticket-thread-actions{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 9999;
+}
+.internal-div{
+  background: rgb(252, 252, 222);
+  height: 100%;
+}
+#ticketsResult tbody td .col-sm-3,#ticketsResult tbody td .col-sm-12{
+	padding: 0px;
+}
+#ticketsResult .col-sm-9{
+	padding-right: 0px;
+}
+#ticketsResult table tbody button,.form-inline button.btn.disabled{
+	opacity: 1;
+}
+span.ticket-list-info {
+  display: inline-block;
+  background: #fff;
+  padding: 5px;
+  border-radius: 35%;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+span.ticket-list-info.red {
+  background: red;
+  color: #fff;
+}
+#ticketsResult td h4{
+	margin-bottom: 2px;
+}
+#ticketsResult .ticketsLoader{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+  text-align: center;
+  padding: 25%;
+  left: 0px;
+  top: 0px;
+}
+.ticket-view-head-left{
+  max-width: 680px;
+  height: 80px;
+}
+.image-logo{
+  width: 50px;
+  height: 50px;
+      -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 4px;
+  cursor: pointer;
+  /*border: 1px solid #8fbb6c;*/
+}
+.create-logo{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	padding: 13px;
+	line-height: 18px;
+	border-radius: 24px;
+	font-size: 25px;
+	margin-right: 8px;
+	text-transform: uppercase;
+	cursor: pointer;
+	outline: 0px;
+}
+.create-logo.blue{
+	border: 1px solid #B4E8FC;
+	background: #B4E8FC;
+	background-image: linear-gradient(to left,#FFFFFF,#B4E8FC);
+}
+.create-logo.green{
+	border: 1px solid #3CD862;
+	background: #3CD862;
+	background-image: linear-gradient(to left,#FFFFFF,#3CD862);
+}
+.create-logo.red{
+	border: 1px solid #C36D6D;
+	background: #C36D6D;
+	background-image: linear-gradient(to left,#FFFFFF,#C36D6D);
+}
+.form-horizontal .message .form-group{
+	margin: 0px 0px 20px;
+}
+.ticketAlert{
+  position: fixed;
+  top: 55px;
+  right: 20px;
+}
+h2.head-h2{
+	/*border-bottom: 1px solid #ccc;*/
+	padding-bottom: 8px;
+	margin: 10px 0px 0px 0px;
+}
+@media (max-width: 768px) {
+	.navbar-nav {
+	    margin: 1px -15px;
+	}
+	.container .ts-jumbotron{
+		padding: 5px 15px 0px 15px;
+	}
+
+}

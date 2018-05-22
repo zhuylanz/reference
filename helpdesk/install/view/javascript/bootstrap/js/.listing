@@ -1,0 +1,4 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x    4 1002     1002         4096 Apr 24 13:12 ..
+-rw-r--r--    1 1002     1002        58411 Apr 24 13:12 bootstrap.js
+-rw-r--r--    1 1002     1002        27832 Apr 24 13:12 bootstrap.min.js

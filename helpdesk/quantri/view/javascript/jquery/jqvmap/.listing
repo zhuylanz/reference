@@ -1,0 +1,8 @@
+drwxr-xr-x    4 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x    5 1002     1002         4096 Apr 24 13:12 ..
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 data
+-rw-r--r--    1 1002     1002        31575 Apr 24 13:12 jquery.vmap.js
+-rw-r--r--    1 1002     1002        17591 Apr 24 13:12 jquery.vmap.min.js
+-rw-r--r--    1 1002     1002        11032 Apr 24 13:12 jquery.vmap.packed.js
+-rw-r--r--    1 1002     1002          880 Apr 24 13:12 jqvmap.css
+drwxr-xr-x    3 1002     1002         4096 Apr 24 13:12 maps

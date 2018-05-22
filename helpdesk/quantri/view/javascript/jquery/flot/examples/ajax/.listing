@@ -1,0 +1,11 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   30 1002     1002         4096 Apr 24 13:12 ..
+-rw-r--r--    1 1002     1002           73 Apr 24 13:12 data-eu-gdp-growth-1.json
+-rw-r--r--    1 1002     1002           99 Apr 24 13:12 data-eu-gdp-growth-2.json
+-rw-r--r--    1 1002     1002          125 Apr 24 13:12 data-eu-gdp-growth-3.json
+-rw-r--r--    1 1002     1002          151 Apr 24 13:12 data-eu-gdp-growth-4.json
+-rw-r--r--    1 1002     1002          177 Apr 24 13:12 data-eu-gdp-growth-5.json
+-rw-r--r--    1 1002     1002          177 Apr 24 13:12 data-eu-gdp-growth.json
+-rw-r--r--    1 1002     1002          171 Apr 24 13:12 data-japan-gdp-growth.json
+-rw-r--r--    1 1002     1002          167 Apr 24 13:12 data-usa-gdp-growth.json
+-rw-r--r--    1 1002     1002         4333 Apr 24 13:12 index.html

@@ -1,0 +1,13 @@
+drwxr-xr-x    2 1002     1002         4096 Apr 24 13:12 .
+drwxr-xr-x   28 1002     1002         4096 May 01 12:30 ..
+-rw-r--r--    1 1002     1002           93 Apr 24 13:12 column_left.tpl
+-rw-r--r--    1 1002     1002         1479 Apr 24 13:12 dashboard.tpl
+-rw-r--r--    1 1002     1002         8750 Apr 24 13:12 filemanager.tpl
+-rw-r--r--    1 1002     1002          112 Apr 24 13:12 footer.tpl
+-rw-r--r--    1 1002     1002         1674 Apr 24 13:12 forgotten.tpl
+-rw-r--r--    1 1002     1002         5679 Apr 24 13:12 header.tpl
+-rw-r--r--    1 1002     1002         2580 Apr 24 13:12 login.tpl
+-rw-r--r--    1 1002     1002        12089 Apr 24 13:12 menu.tpl
+-rw-r--r--    1 1002     1002          418 Apr 24 13:12 profile.tpl
+-rw-r--r--    1 1002     1002         2078 Apr 24 13:12 reset.tpl
+-rw-r--r--    1 1002     1002         1407 Apr 24 13:12 stats.tpl
