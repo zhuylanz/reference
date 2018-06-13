@@ -1,0 +1,15 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:23 .
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 May 31 22:23 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        450 May 31 22:23 create-slider.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        398 May 31 22:23 edit-slider.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd          0 May 31 22:23 index.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     107485 May 31 22:23 slide-general-settings.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      13716 May 31 22:23 slide-selector.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     259488 May 31 22:23 slide-stage.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     392228 May 31 22:23 slider-main-options.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      10591 May 31 22:23 sliders-list.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       7514 May 31 22:23 slides-list.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3082 May 31 22:23 slides.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      11662 May 31 22:23 template-selector.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      14408 May 31 22:23 template-slider-selector.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3770 May 31 22:23 wpml-selector.php

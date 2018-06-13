@@ -1,0 +1,10 @@
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 .
+drwxr-xr-x    8 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6148 May 31 22:18 .DS_Store
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1041 May 31 22:18 actions.php
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 inventory
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        319 May 31 22:18 pagination.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4719 May 31 22:18 result_with_rating.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        421 May 31 22:18 results.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2586 May 31 22:18 sidebar.php
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 types

@@ -1,0 +1,8 @@
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     562916 May 31 22:19 VC Icons.json
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        362 May 31 22:19 aliases.less
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 fonts
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        105 May 31 22:19 init.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4163 May 31 22:19 style.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1446 May 31 22:19 variables.less

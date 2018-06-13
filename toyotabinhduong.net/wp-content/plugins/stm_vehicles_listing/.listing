@@ -1,0 +1,10 @@
+drwxr-xr-x    6 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 .
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 Jun 12 22:37 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6148 May 31 22:18 .DS_Store
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd         34 May 31 22:18 .gitignore
+drwxr-xr-x    7 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 assets
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 includes
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 languages
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2364 May 31 22:18 readme.txt
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1874 May 31 22:18 stm_vehicles_listing.php
+drwxr-xr-x    8 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 templates

@@ -1,0 +1,9 @@
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x    6 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1953 May 31 22:19 backend_editor.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4430 May 31 22:19 frontend_editor.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        517 May 31 22:19 frontend_template.tpl.php
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 navbar
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 partials
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 popups
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3496 May 31 22:19 vc_ui-template-preview.tpl.php

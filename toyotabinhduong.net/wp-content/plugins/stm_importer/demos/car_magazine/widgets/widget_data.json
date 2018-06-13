@@ -1,0 +1,196 @@
+[
+  {
+    "wp_inactive_widgets": [
+      "search-2",
+      "recent-posts-2",
+      "recent-comments-2",
+      "archives-2",
+      "categories-2",
+      "meta-2"
+    ],
+    "events_sidebar": [
+      "search-3",
+      "text-3",
+      "recent-posts-3",
+      "tag_cloud-2",
+      "archives-3",
+      "media_gallery-2"
+    ],
+    "default": [
+      "search-4",
+      "stm-recomended-posts-2",
+      "archives-4",
+      "tag_cloud-3",
+      "media_gallery-3",
+      "stm-recent-posts-2"
+    ],
+    "footer": [
+      "custom_html-3",
+      "media_gallery-5",
+      "nav_menu-5",
+      "text-5"
+    ]
+  },
+  {
+    "search": {
+      "3": {
+        "title": ""
+      },
+      "4": {
+        "title": ""
+      },
+      "2": {
+        "title": ""
+      },
+      "_multiwidget": 1
+    },
+    "text": {
+      "3": null,
+      "5": null,
+      "_multiwidget": 1
+    },
+    "recent-posts": {
+      "3": {
+        "title": "Recomended for you",
+        "number": 3,
+        "show_date": false
+      },
+      "2": {
+        "title": "",
+        "number": 5
+      },
+      "_multiwidget": 1
+    },
+    "tag_cloud": {
+      "2": {
+        "title": "Most Popular Tags",
+        "count": 0,
+        "taxonomy": "event_tag"
+      },
+      "3": {
+        "title": "Most Popular Tags",
+        "count": 0,
+        "taxonomy": "post_tag"
+      },
+      "_multiwidget": 1
+    },
+    "archives": {
+      "3": {
+        "title": "Archive",
+        "count": 0,
+        "dropdown": 1
+      },
+      "4": {
+        "title": "Archive",
+        "count": 0,
+        "dropdown": 1
+      },
+      "2": {
+        "title": "",
+        "count": 0,
+        "dropdown": 0
+      },
+      "_multiwidget": 1
+    },
+    "media_gallery": {
+      "2": {
+        "title": "Media Gallery",
+        "columns": 3,
+        "size": "thumbnail",
+        "link_type": "post",
+        "orderby_random": false,
+        "ids": [
+          36,
+          56,
+          58,
+          59,
+          60,
+          61
+        ]
+      },
+      "3": {
+        "title": "Media Gallery",
+        "columns": 3,
+        "size": "thumbnail",
+        "link_type": "post",
+        "orderby_random": false,
+        "ids": [
+          272,
+          184,
+          148,
+          150,
+          157,
+          158
+        ]
+      },
+      "5": {
+        "title": "Photo Gallery",
+        "columns": 4,
+        "size": "thumbnail",
+        "link_type": "post",
+        "orderby_random": false,
+        "ids": [
+          274,
+          272,
+          282,
+          157,
+          150,
+          148,
+          162,
+          184
+        ]
+      },
+      "_multiwidget": 1
+    },
+    "stm-recomended-posts": {
+      "2": {
+        "title": "Recomended for you",
+        "number_of_posts": "3"
+      },
+      "_multiwidget": 1
+    },
+    "stm-recent-posts": {
+      "2": {
+        "title": "Recent posts",
+        "number_of_posts": "3"
+      },
+      "_multiwidget": 1
+    },
+    "custom_html": {
+      "3": {
+        "title": "Advertising on motors",
+        "content": "Fusce interdum ipsum egestas urna amet fringilla, et placerat ex venenatis. Aliquet luctus pharetra.\r\n\r\n<a href=\"#\" class=\"stm-button btn-magazine-green\">More Info<\/a>"
+      },
+      "_multiwidget": 1
+    },
+    "nav_menu": {
+      "5": {
+        "title": "Quick Links",
+        "nav_menu": 270
+      },
+      "_multiwidget": 1
+    },
+    "recent-comments": {
+      "2": {
+        "title": "",
+        "number": 5
+      },
+      "_multiwidget": 1
+    },
+    "categories": {
+      "2": {
+        "title": "",
+        "count": 0,
+        "hierarchical": 0,
+        "dropdown": 0
+      },
+      "_multiwidget": 1
+    },
+    "meta": {
+      "2": {
+        "title": ""
+      },
+      "_multiwidget": 1
+    }
+  }
+]

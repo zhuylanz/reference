@@ -1,0 +1,12 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      13451 May 31 22:21 ClassLoader.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6245 May 31 22:21 ClassLoader52.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1070 May 31 22:21 LICENSE
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6333 May 31 22:21 autoload_classmap.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        758 May 31 22:21 autoload_files.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        225 May 31 22:21 autoload_namespaces.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        143 May 31 22:21 autoload_psr4.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2414 May 31 22:21 autoload_real.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1571 May 31 22:21 autoload_real_52.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       8718 May 31 22:21 autoload_static.php

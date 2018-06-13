@@ -1,0 +1,16 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 .
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      15091 Jan 15 16:51 custom-html-widgets.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5578 Jan 15 16:51 custom-html-widgets.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3871 May 22  2017 media-audio-widget.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1440 May 11  2017 media-audio-widget.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       9951 Oct 19  2017 media-gallery-widget.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3779 Oct 19  2017 media-gallery-widget.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5212 Sep 24  2017 media-image-widget.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2023 Sep 24  2017 media-image-widget.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6594 Oct 18  2017 media-video-widget.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2705 Oct 18  2017 media-video-widget.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      41846 Oct 19  2017 media-widgets.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      14422 Oct 18  2017 media-widgets.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      17766 Sep  9  2017 text-widgets.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5924 Sep  8  2017 text-widgets.min.js

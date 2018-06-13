@@ -1,0 +1,83 @@
+[01-Jun-2018 04:55:28 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:28 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:28 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:28 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:30 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:30 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:30 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:30 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:40 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:40 UTC] PHP Warning:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:40 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:40 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/tsoih7ojdd0h/public_html/wp-includes/load.php on line 404
+[01-Jun-2018 04:55:40 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Unknown column 'wp_' in 'field list' với truy vấn SELECT wp_
+[01-Jun-2018 04:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_privacy_anonymize_ip() in /home/tsoih7ojdd0h/public_html/wp-admin/includes/class-wp-community-events.php:267
+Stack trace:
+#0 /home/tsoih7ojdd0h/public_html/wp-includes/script-loader.php(1157): WP_Community_Events::get_unsafe_client_ip()
+#1 /home/tsoih7ojdd0h/public_html/wp-includes/class-wp-hook.php(286): wp_localize_community_events('')
+#2 /home/tsoih7ojdd0h/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/tsoih7ojdd0h/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/tsoih7ojdd0h/public_html/wp-admin/admin-header.php(118): do_action('admin_print_scr...')
+#5 /home/tsoih7ojdd0h/public_html/wp-admin/index.php(100): include('/home/tsoih7ojd...')
+#6 {main}
+  thrown in /home/tsoih7ojdd0h/public_html/wp-admin/includes/class-wp-community-events.php on line 267
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:44:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 05:47:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:15:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[01-Jun-2018 06:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_importer/helpers/widgets.php on line 63
+[13-Jun-2018 06:12:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:12:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:12:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:12:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:13:26 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:13:27 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:13:27 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:13:27 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:15:04 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:15:04 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:15:04 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:15:05 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:16:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:22:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:22:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:22:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98
+[13-Jun-2018 06:22:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/tsoih7ojdd0h/public_html/wp-content/plugins/stm_vehicles_listing/includes/vehicle_functions.php on line 98

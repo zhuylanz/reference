@@ -1,0 +1,14 @@
+drwxr-xr-x    8 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 Jun 12 22:37 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      37426 May 31 22:21 CHANGELOG.md
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      33093 May 31 22:21 LICENSE
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 assets
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 config
+drwxr-xr-x    8 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 includes
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 integrations
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 languages
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4188 May 31 22:21 mailchimp-for-wp.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     263936 May 31 22:21 package-lock.json
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      47320 May 31 22:21 readme.txt
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 vendor
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1312 May 31 22:21 wpml-config.xml

@@ -1,0 +1,15 @@
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 Jun 12 22:37 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      46667 May 31 22:21 README.txt
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      43132 May 31 22:21 add-to-any.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        598 May 31 22:21 addtoany.admin.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      67047 May 31 22:21 addtoany.admin.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2338 May 31 22:21 addtoany.compat.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1401 May 31 22:21 addtoany.min.css
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        135 May 31 22:21 addtoany.min.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      12289 May 31 22:21 addtoany.services.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        829 May 31 22:21 addtoany.update.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       7802 May 31 22:21 addtoany.widgets.php
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 icons
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 languages
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        155 May 31 22:21 wpml-config.xml

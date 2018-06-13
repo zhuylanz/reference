@@ -1,0 +1,7 @@
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x   22 tsoih7ojdd tsoih7ojdd       4096 May 31 22:22 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      42178 May 31 22:21 class-emogrifier.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      13382 May 31 22:21 class-wc-eval-math.php
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 geolite2
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2724 May 31 22:21 wp-async-request.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      10413 May 31 22:21 wp-background-process.php

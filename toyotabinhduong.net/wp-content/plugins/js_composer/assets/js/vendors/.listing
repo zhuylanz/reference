@@ -1,0 +1,10 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x    6 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        299 May 31 22:19 advanced_custom_fields.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1674 May 31 22:19 qtranslate_backend.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        851 May 31 22:19 qtranslate_frontend.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        535 May 31 22:19 qtranslatex_backend.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        452 May 31 22:19 qtranslatex_frontend.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        895 May 31 22:19 woocommerce-add-to-cart.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1359 May 31 22:19 woocommerce.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2936 May 31 22:19 yoast.js

@@ -1,0 +1,13 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 .
+drwxr-xr-x   18 tsoih7ojdd tsoih7ojdd      12288 May 31 22:10 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5651 Mar  8  2016 byte_safe_strings.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2461 Mar  8  2016 cast_to_int.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1533 Oct 22  2015 error_polyfill.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       7694 Mar  8  2016 random.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2587 Nov 30  2017 random_bytes_com_dotnet.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4590 Nov 30  2017 random_bytes_dev_urandom.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2623 Nov 30  2017 random_bytes_libsodium.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2623 Nov 30  2017 random_bytes_libsodium_legacy.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2353 Nov 30  2017 random_bytes_mcrypt.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2621 Nov 30  2017 random_bytes_openssl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5742 Nov 30  2017 random_int.php

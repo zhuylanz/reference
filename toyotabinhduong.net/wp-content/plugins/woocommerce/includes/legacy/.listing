@@ -1,0 +1,11 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x   22 tsoih7ojdd tsoih7ojdd       4096 May 31 22:22 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      24844 May 31 22:21 abstract-wc-legacy-order.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1910 May 31 22:21 abstract-wc-legacy-payment-token.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      21566 May 31 22:21 abstract-wc-legacy-product.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       8383 May 31 22:21 class-wc-legacy-api.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      11589 May 31 22:21 class-wc-legacy-cart.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5017 May 31 22:21 class-wc-legacy-coupon.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       7091 May 31 22:21 class-wc-legacy-customer.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1607 May 31 22:21 class-wc-legacy-shipping-zone.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2568 May 31 22:21 class-wc-legacy-webhook.php

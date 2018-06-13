@@ -1,0 +1,15 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x   11 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1598 May 31 22:19 shortcode-vc-wp-archives.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1219 May 31 22:19 shortcode-vc-wp-calendar.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1662 May 31 22:19 shortcode-vc-wp-categories.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2089 May 31 22:19 shortcode-vc-wp-custommenu.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2551 May 31 22:19 shortcode-vc-wp-links.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1252 May 31 22:19 shortcode-vc-wp-meta.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1889 May 31 22:19 shortcode-vc-wp-pages.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1775 May 31 22:19 shortcode-vc-wp-posts.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1517 May 31 22:19 shortcode-vc-wp-recentcomments.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2293 May 31 22:19 shortcode-vc-wp-rss.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1212 May 31 22:19 shortcode-vc-wp-search.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2033 May 31 22:19 shortcode-vc-wp-tagcloud.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1344 May 31 22:19 shortcode-vc-wp-text.php

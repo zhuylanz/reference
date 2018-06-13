@@ -1,0 +1,12 @@
+drwxr-xr-x    7 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 .
+drwxr-xr-x   12 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 ..
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 langs
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      26441 May  7  2017 license.txt
+drwxr-xr-x   24 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 plugins
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 skins
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 themes
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      15988 Sep 26  2017 tiny_mce_popup.js
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     350401 May 31 21:57 tinymce.min.js
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 Feb  6 14:13 utils
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd     209550 May 31 21:57 wp-tinymce.js.gz
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1126 Jan  2  2015 wp-tinymce.php

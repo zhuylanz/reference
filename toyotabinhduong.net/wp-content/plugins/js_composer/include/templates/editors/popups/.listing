@@ -1,0 +1,14 @@
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        900 May 31 22:19 modal_edit_element.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        934 May 31 22:19 panel_multi_shortcode_edit_form.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1022 May 31 22:19 panel_shortcode_edit_form.tpl.php
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 shared-templates
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        822 May 31 22:19 vc_ui-footer.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1803 May 31 22:19 vc_ui-header.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2290 May 31 22:19 vc_ui-panel-add-element.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1578 May 31 22:19 vc_ui-panel-edit-element.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2304 May 31 22:19 vc_ui-panel-post-settings.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2020 May 31 22:19 vc_ui-panel-preset.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2257 May 31 22:19 vc_ui-panel-row-layout.tpl.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1906 May 31 22:19 vc_ui-panel-templates.tpl.php

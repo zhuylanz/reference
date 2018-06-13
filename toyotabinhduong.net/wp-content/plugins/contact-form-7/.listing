@@ -1,0 +1,12 @@
+drwxr-xr-x    7 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 .
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 Jun 12 22:37 ..
+drwxr-xr-x    6 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 admin
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 images
+drwxr-xr-x    4 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 includes
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 languages
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      18969 May 31 22:21 license.txt
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:21 modules
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       5776 May 31 22:21 readme.txt
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4191 May 31 22:21 settings.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        459 May 31 22:21 uninstall.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1750 May 31 22:21 wp-contact-form-7.php

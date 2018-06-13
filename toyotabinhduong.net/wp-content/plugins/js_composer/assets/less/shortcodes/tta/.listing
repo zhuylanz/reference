@@ -1,0 +1,10 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      12398 May 31 22:19 vc_tta-colors.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      18003 May 31 22:19 vc_tta-core.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4146 May 31 22:19 vc_tta-frontend-editor.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4623 May 31 22:19 vc_tta-icon-controls.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      11707 May 31 22:19 vc_tta-mixins.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      22792 May 31 22:19 vc_tta-options.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        269 May 31 22:19 vc_tta-pagination.less
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6907 May 31 22:19 vc_tta-variables.less

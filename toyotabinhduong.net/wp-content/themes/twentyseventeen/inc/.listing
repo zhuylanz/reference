@@ -1,0 +1,9 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:05 .
+drwxr-xr-x    5 tsoih7ojdd tsoih7ojdd       4096 May 31 22:05 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2361 May 31 22:05 back-compat.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      22460 May 31 22:05 color-patterns.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       4425 May 31 22:05 custom-header.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6822 May 31 22:05 customizer.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       7099 May 31 22:05 icon-functions.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2561 May 31 22:05 template-functions.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6682 May 31 22:05 template-tags.php

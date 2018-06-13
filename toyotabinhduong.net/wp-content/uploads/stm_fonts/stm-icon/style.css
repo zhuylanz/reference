@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'stm-icon';
+  src:  url('fonts/stm-icon.eot?ie7r5c');
+  src:  url('fonts/stm-icon.eot?ie7r5c#iefix') format('embedded-opentype'),
+    url('fonts/stm-icon.ttf?ie7r5c') format('truetype'),
+    url('fonts/stm-icon.woff?ie7r5c') format('woff'),
+    url('fonts/stm-icon.svg?ie7r5c#stm-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stm-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico_mag_reviews:before {
+  content: "\e92a";
+}
+.icon-ico_mag_calendar:before {
+  content: "\e92b";
+}
+.icon-ico_mag_clock:before {
+  content: "\e92c";
+}
+.icon-ico_mag_eye:before {
+  content: "\e92d";
+}
+.icon-ico_mag_map_pin:before {
+  content: "\e92e";
+}
+.icon-barrette:before {
+  content: "\e929";
+}
+.icon-buoy-2:before {
+  content: "\e925";
+}
+.icon-buoy:before {
+  content: "\e926";
+}
+.icon-car-relic:before {
+  content: "\e927";
+}
+.icon-star:before {
+  content: "\e928";
+  color: #cc6119;
+}
+.icon-time:before {
+  content: "\e924";
+  color: #cc6119;
+}
+.icon-quotes3:before {
+  content: "\e923";
+}
+.icon-author:before {
+  content: "\e921";
+  color: #6c98e1;
+}
+.icon-date:before {
+  content: "\e922";
+  color: #6c98e1;
+}
+.icon-grid:before {
+  content: "\e91f";
+  color: #6c98e1;
+}
+.icon-list:before {
+  content: "\e920";
+  color: #888;
+}
+.icon-load2:before {
+  content: "\e91a";
+}
+.icon-load1:before {
+  content: "\e91b";
+}
+.icon-transmission_fill:before {
+  content: "\e91c";
+}
+.icon-drive_2:before {
+  content: "\e91d";
+}
+.icon-engine_fill:before {
+  content: "\e91e";
+}
+.icon-add_car:before {
+  content: "\e914";
+}
+.icon-air_conditioning:before {
+  content: "\e915";
+}
+.icon-auto_electric:before {
+  content: "\e916";
+}
+.icon-brake:before {
+  content: "\e917";
+}
+.icon-oil-add:before {
+  content: "\e918";
+}
+.icon-Tire_Wheel:before {
+  content: "\e919";
+}
+.icon-calculator:before {
+  content: "\e90f";
+}
+.icon-added:before {
+  content: "\e910";
+}
+.icon-add:before {
+  content: "\e912";
+}
+.icon-remove:before {
+  content: "\e913";
+}
+.icon-delete:before {
+  content: "\e90d";
+}
+.icon-share:before {
+  content: "\e90e";
+}
+.icon-brochure:before {
+  content: "\e911";
+}
+.icon-mail:before {
+  content: "\e90b";
+}
+.icon-pin:before {
+  content: "\e90c";
+}
+.icon-engine:before {
+  content: "\e908";
+}
+.icon-speedometr3:before {
+  content: "\e909";
+}
+.icon-transmission2:before {
+  content: "\e90a";
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-oil:before {
+  content: "\e903";
+}
+.icon-diagnostic:before {
+  content: "\e904";
+}
+.icon-Tire_Wheel_Service2:before {
+  content: "\e905";
+}
+.icon-Tire_Wheel_Service:before {
+  content: "\e906";
+}
+.icon-auto_loan:before {
+  content: "\e907";
+}
+.icon-gear:before {
+  content: "\e900";
+}
+.icon-key:before {
+  content: "\e901";
+}
+.icon-steering_wheel:before {
+  content: "\e814";
+}
+.icon-phone2:before {
+  content: "\e812";
+}
+.icon-question:before {
+  content: "\e813";
+}
+.icon-search:before {
+  content: "\e810";
+}
+.icon-reset:before {
+  content: "\e811";
+}
+.icon-label-reverse:before {
+  content: "\e80c";
+}
+.icon-transmission:before {
+  content: "\e80d";
+}
+.icon-fuel:before {
+  content: "\e80e";
+}
+.icon-road:before {
+  content: "\e80f";
+}
+.icon-speedometr2:before {
+  content: "\e800";
+}
+.icon-shop_bag:before {
+  content: "\e801";
+}
+.icon-chat2:before {
+  content: "\e802";
+}
+.icon-car:before {
+  content: "\e803";
+}
+.icon-car_search:before {
+  content: "\e804";
+}
+.icon-label:before {
+  content: "\e805";
+}
+.icon-speedometr:before {
+  content: "\e806";
+}
+.icon-chat:before {
+  content: "\e807";
+}
+.icon-application:before {
+  content: "\e808";
+}
+.icon-message:before {
+  content: "\e809";
+}
+.icon-car_sale:before {
+  content: "\e80a";
+}
+.icon-phone:before {
+  content: "\e80b";
+}

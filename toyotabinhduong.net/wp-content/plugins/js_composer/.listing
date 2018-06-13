@@ -1,0 +1,13 @@
+drwxr-xr-x    7 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 .
+drwxr-xr-x   16 tsoih7ojdd tsoih7ojdd       4096 Jun 12 22:37 ..
+drwxr-xr-x    9 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 assets
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      49178 May 31 22:19 changes.txt
+drwxr-xr-x   11 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 config
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1268 May 31 22:19 credits.txt
+drwxr-xr-x    7 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 include
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd         44 May 31 22:19 index.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      22857 May 31 22:19 js_composer.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      14846 May 31 22:19 license.txt
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 locale
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd      10418 May 31 22:19 vc_classmap.json.php
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:19 vendor

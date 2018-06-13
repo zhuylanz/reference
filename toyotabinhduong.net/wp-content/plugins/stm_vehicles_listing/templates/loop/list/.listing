@@ -1,0 +1,12 @@
+drwxr-xr-x    2 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 .
+drwxr-xr-x    3 tsoih7ojdd tsoih7ojdd       4096 May 31 22:18 ..
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        571 May 31 22:18 badge.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1226 May 31 22:18 compare.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       6793 May 31 22:18 features.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        626 May 31 22:18 image.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       2138 May 31 22:18 options.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       1907 May 31 22:18 price.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd       3836 May 31 22:18 price_rating.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        205 May 31 22:18 title.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        455 May 31 22:18 title_with_review.php
+-rw-r--r--    1 tsoih7ojdd tsoih7ojdd        413 May 31 22:18 video.php
