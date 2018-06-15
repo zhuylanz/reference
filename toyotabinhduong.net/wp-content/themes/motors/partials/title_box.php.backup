@@ -149,7 +149,13 @@ if ( $show_title_box ) {
 	    <div class="container">
             <div class="entry-title">
                 <h2 class="h1" style="<?php echo implode( ' ', $title_style_h1 ); ?>">
-	                CÁC DÒNG XE TOYOTA 2018
+	                <?php
+		                if(!empty($sub_title_instead) and stm_is_motorcycle()) {
+			                echo balanceTags( $sub_title_instead, true );
+		                } else {
+			                echo balanceTags( $title, true );
+		                }
+		            ?>
                 </h2>
 	            <?php if($title_box_line_color): ?>
 		            <div class="colored-separator">
