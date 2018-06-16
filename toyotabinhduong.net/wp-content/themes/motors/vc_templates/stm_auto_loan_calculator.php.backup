@@ -2,7 +2,7 @@
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 extract( $atts );
 $css_class = (!empty($css)) ? apply_filters(VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, vc_shortcode_custom_css_class($css, ' ')) : '';
-$currency_symbol = 'VNĐ';
+
 if(empty($currency_symbol)) {
 	$currency_symbol = '';
 }
@@ -34,7 +34,7 @@ $default_down_payment = get_theme_mod("default_down_payment", "");
 	<?php if(!empty($title)): ?>
 		<div class="title single-calculator-title">
 			<i class="stm-icon-calculator"></i>
-			<h3>TÍNH TOÁN TÀI CHÍNH</h3>
+			<h3><?php echo esc_attr($title); ?></h3>
 		</div>
 	<?php endif; ?>
 	<div class="row">
@@ -42,7 +42,7 @@ $default_down_payment = get_theme_mod("default_down_payment", "");
 
 			<!--Amount-->
 			<div class="form-group">
-				<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Giá xe",'motors');?> <span class="orange">(<?php echo $currency_symbol; ?>)</span></div>
+				<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Vehicle price",'motors');?> <span class="orange">(<?php echo $currency_symbol; ?>)</span></div>
 				<input type="text" class="numbersOnly vehicle_price" value="<?php echo esc_attr($price); ?>"/>
 			</div>
 
@@ -50,14 +50,14 @@ $default_down_payment = get_theme_mod("default_down_payment", "");
 				<div class="col-md-6 col-sm-6">
 					<!--Interest rate-->
 					<div class="form-group md-mg-rt">
-						<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Lãi suất",'motors');?> <span class="orange">(%)</span></div>
+						<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Interest rate",'motors');?> <span class="orange">(%)</span></div>
 						<input type="text" class="numbersOnly interest_rate" value="<?php echo esc_html($default_interest_rate); ?>"/>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<!--Period-->
 					<div class="form-group md-mg-lt">
-						<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Khoảng thời gian",'motors');?> <span class="orange">(<?php esc_html_e('tháng','motors'); ?>)</span></div>
+						<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Period",'motors');?> <span class="orange">(<?php esc_html_e('month','motors'); ?>)</span></div>
 						<input type="text" class="numbersOnly period_month" value="<?php echo esc_html($default_month_period); ?>"/>
 					</div>
 				</div>
@@ -65,12 +65,12 @@ $default_down_payment = get_theme_mod("default_down_payment", "");
 
 			<!--Down Payment-->
 			<div class="form-group">
-				<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Số tiền trả trước",'motors');?> <span class="orange">(<?php echo $currency_symbol; ?>)</span></div>
+				<div class="labeled <?php if(!empty($label_font_size)){ echo 'heading-font'; } ?>"><?php esc_html_e("Down Payment",'motors');?> <span class="orange">(<?php echo $currency_symbol; ?>)</span></div>
 				<input type="text" class="numbersOnly down_payment" value="<?php echo esc_html($default_down_payment); ?>"/>
 			</div>
 
 
-			<a href="" class="button button-sm calculate_loan_payment dp-in"><?php esc_html_e("Tính thử", "motors"); ?></a>
+			<a href="" class="button button-sm calculate_loan_payment dp-in"><?php esc_html_e("Calculate", "motors"); ?></a>
 
 
 			<div class="calculator-alert alert alert-danger">
@@ -83,13 +83,13 @@ $default_down_payment = get_theme_mod("default_down_payment", "");
 		<div class="col-md-12">
 			<div class="stm_calculator_results">
 				<div class="stm-calc-results-inner">
-					<div class="stm-calc-label"><?php esc_html_e('Số tiền hàng tháng phải trả', 'motors'); ?></div>
+					<div class="stm-calc-label"><?php esc_html_e('Monthly Payment', 'motors'); ?></div>
 					<div class="monthly_payment h5"></div>
 
-					<div class="stm-calc-label"><?php esc_html_e('Tổng số tiền lãi phải trả', 'motors'); ?></div>
+					<div class="stm-calc-label"><?php esc_html_e('Total Interest Payment', 'motors'); ?></div>
 					<div class="total_interest_payment h5"></div>
 
-					<div class="stm-calc-label"><?php esc_html_e('Tổng cộng số tiền phải trả', 'motors'); ?></div>
+					<div class="stm-calc-label"><?php esc_html_e('Total Amount to Pay', 'motors'); ?></div>
 					<div class="total_amount_to_pay h5"></div>
 				</div>
 			</div>
